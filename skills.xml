@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skills>
+  <skill1>Basic theory</skill1>
+  <skill2>Client-server architecture</skill2>
+  <skill3>HTTP methods</skill3>
+  <skill4>JSON, XML</skill4>
+  <skill5>API testing via Postman</skill5>
+  <skill6>Charles and Fiddler</skill6>
+  <skill7>Dev Tools</skill7>
+  <skill8>VPN</skill8>
+  <skill19>Mobile testing</skill9>
+  <skill110>Feature of iOS, Android</skill10>
+  <skill8>Build iOS apps on XCode</skill8>
+  <skill19>Android Studio</skill9>
+  <skill110>ADB</skill10>
+  </Skills>
