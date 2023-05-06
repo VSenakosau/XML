@@ -1,1 +1,19 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<bugReport_xml>
+  <id>128</id>
+  <severity>trivial</severity>
+  <priority>low</priority>
+  <title>The message in the tooltip begins with a lowercase letter when hovering over the image of the link [Argentine peso forecast: ARS seeking new bottom amid longstanding and persistent economic woes on the https://capital.com/argentine-peso-forecast-ars] page</title>
+  <environment>Windows 11 Pro , Chrome 112</environment>
+  <stepsToReproduce>
+    <step1>1. Navigate to capita.com</step1>
+    <step2>2. Scroll down to the [Financial News] block</step2>
+    <step3>3. Click tab [Forex]</step3>
+    <step4>4. Select section [USD latest: GBP/USD, EUR/USD, USD/JPY trading setups]</step4>
+    <step5>5. Hover the cursor over the image of the links in the [USD latest: GBP/USD, EUR/USD, USD/JPY trading setups] section</step5>
+  <expectedResult>The text of the tooltips on each image starts with a capital letter</expectedResult>
+  <actualResult>The text of the tooltips for the link image [Argentine peso forecast: ARS seeking new bottom amid longstanding and persistent economic woes] begins with a lowercase letter</actualResult>
+  <attachment>URL to the video</attachment>
+  <License>All</License>
+  <author>SVadim</author>
+</bugReport_xml>
