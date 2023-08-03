@@ -144,23 +144,24 @@ Click the "Commit changes" button ->
 if necessary, enter the data in the Commit message and Extended description fields description ->      
 Click the "Commit changes" button   
 # 17. Synchronize remote and local XML repository   
-vvsen@Vadim MINGW64 /c/vadim/qa/github/json (main)    
-We use the `git pull` command in the terminal   
-`git pull origin main`
+vvsen@Vadim MINGW64 /c/vadim/qa/github/xml (main)   
+We use the `git pull` command in the terminal    
+`git pull origin main`   
 ```
-remote: Enumerating objects: 12, done.
-remote: Counting objects: 100% (12/12), done.
-remote: Compressing objects: 100% (10/10), done.
-remote: Total 11 (delta 4), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (11/11), 3.43 KiB | 92.00 KiB/s, done.
-From https://github.com/VSenakosau/JSON
-   4cf73d2..862e5f3  main       -> origin/main
-Updating 4cf73d2..862e5f3
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.82 KiB | 93.00 KiB/s, done.
+From https://github.com/VSenakosau/XML
+ * branch            main       -> FETCH_HEAD
+   aaebda4..e48cf78  main       -> origin/main
+Updating aaebda4..e48cf78
 Fast-forward
- bug_report.json | 19 +++++++++++++++++++
+ bug_report.xml | 19 +++++++++++++++++++
  1 file changed, 19 insertions(+)
- create mode 100644 bug_report.json
-```
+ create mode 100644 bug_report.xml
+``` 
 
 
 
