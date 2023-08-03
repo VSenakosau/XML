@@ -108,6 +108,8 @@ Writing objects: 100% (4/4), 819 bytes | 819.00 KiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0), pack-reused 0   
 To https://github.com/VSenakosau/XML.git   
    8af1063..aaebda4  main -> main   
-## 12. Create the bug_report.xml file at the web interface
-Click "Add file", select "Create new file" -> Enter bug_report.xml   
-## 13. 
+## 13. Create bug_report.xml file in the web interface and add the information
+`Click "Add file", select "Create new file" -> Enter bug_report.xml`
+The nano editor is used   
+
+## 14. 
