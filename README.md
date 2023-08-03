@@ -24,5 +24,15 @@ vvsen@Vadim MINGW64 /c/vadim/qa/github/XML (main)
 [main 16155fd] add new.xml   
  1 file changed, 0 insertions(+), 0 deletions(-)   
  create mode 100644 new.xml   
- 
-
+ ## 6. Send the file to a remote GitHub repository
+vvsen@Vadim MINGW64 /c/vadim/qa/github/XML (main)   
+`git push`
+Enumerating objects: 4, done.   
+Counting objects: 100% (4/4), done.   
+Delta compression using up to 12 threads   
+Compressing objects: 100% (2/2), done.   
+Writing objects: 100% (3/3), 279 bytes | 279.00 KiB/s, done.   
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0   
+To https://github.com/VSenakosau/XML.git   
+   7a929a1..16155fd  main -> main
+## 7. 
