@@ -110,6 +110,57 @@ To https://github.com/VSenakosau/XML.git
    8af1063..aaebda4  main -> main   
 ## 13. Create bug_report.xml file in the web interface 
 `Click "Add file", select "Create new file" -> Enter bug_report.xml`
-## 14. 
-Enter the commit data in the "Commit new file" section ->
--> Click the "Commit changes" button
+## 14. Save the changes at the web interface
+Click the "Commit changes" button ->     
+if necessary, enter the data in the Commit message and Extended description fields description ->   
+Click the "Commit changes" button   
+# 15. At the web interface, modify the bug_report.xml file and add the bug report in XML format
+Click on the file name ->   
+Click on the "Edit this file" icon ->   
+Enter data   
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<bugReport_xml>
+  <id>128</id>
+  <severity>trivial</severity>
+  <priority>low</priority>
+  <title>The message in the tooltip begins with a lowercase letter when hovering over the image of the link [Argentine peso forecast: ARS seeking new bottom amid longstanding and persistent economic woes on the https://capital.com/argentine-peso-forecast-ars] page</title>
+  <environment>Windows 11 Pro, Chrome 112</environment>
+  <stepsToReproduce>
+    <step1>1. Navigate to capita.com</step1>
+    <step2>2. Scroll down to the [Financial News] block</step2>
+    <step3>3. Click tab [Forex]</step3>
+    <step4>4. Select section [USD latest: GBP/USD, EUR/USD, USD/JPY trading setups]</step4>
+    <step5>5. Hover the cursor over the image of the links in the [USD latest: GBP/USD, EUR/USD, USD/JPY trading setups] section</step5>
+  <expectedResult>The text of the tooltips on each image starts with a capital letter</expectedResult>
+  <actualResult>The text of the tooltips for the link image [Argentine peso forecast: ARS seeking new bottom amid longstanding and persistent economic woes] begins with a lowercase letter</actualResult>
+  <attachment>URL to the video</attachment>
+  <License>All</License>
+  <author>SVadim</author>
+</bugReport_xml>
+```
+# 16. Save the changes at the web interface
+Click the "Commit changes" button ->        
+if necessary, enter the data in the Commit message and Extended description fields description ->      
+Click the "Commit changes" button   
+# 17. Synchronize remote and local XML repository   
+vvsen@Vadim MINGW64 /c/vadim/qa/github/json (main)    
+We use the `git pull` command in the terminal   
+`git pull origin main`
+```
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 11 (delta 4), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (11/11), 3.43 KiB | 92.00 KiB/s, done.
+From https://github.com/VSenakosau/JSON
+   4cf73d2..862e5f3  main       -> origin/main
+Updating 4cf73d2..862e5f3
+Fast-forward
+ bug_report.json | 19 +++++++++++++++++++
+ 1 file changed, 19 insertions(+)
+ create mode 100644 bug_report.json
+```
+
+
+
