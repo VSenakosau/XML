@@ -93,3 +93,19 @@ vvsen@Vadim MINGW64 /c/vadim/qa/github/xml (main)
   <skill110>ADB</skill10>
   </Skills>
 ```
+## 12. Send two files at once to the remote repository
+vvsen@Vadim MINGW64 /c/vadim/qa/github/xml (main)      
+`git add . && git commit -m "add preferences.xml and skills.xml" && git push`   
+[main aaebda4] add preferences.xml and skills.xml   
+ 2 files changed, 24 insertions(+)   
+ create mode 100644 preferences.xml   
+ create mode 100644 skills.xml   
+Enumerating objects: 5, done.   
+Counting objects: 100% (5/5), done.   
+Delta compression using up to 12 threads   
+Compressing objects: 100% (4/4), done.   
+Writing objects: 100% (4/4), 819 bytes | 819.00 KiB/s, done.   
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0   
+To https://github.com/VSenakosau/XML.git   
+   8af1063..aaebda4  main -> main   
+
